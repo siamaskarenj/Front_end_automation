@@ -1,10 +1,14 @@
-UIAutomationFramework
+# **Front end automation java selenium framework**
+
 This UIAutomation framework is designed to test the application using Java,Selenium and TestNG using Maven
 
-Requirements:
-Java JDK11
-Maven
-Technologies:
+### Requirements:
+
+1. Java JDK11
+2. Maven
+
+### Technologies:
+
 Java: Programming language for writing tests
 Selenium: For browser automation
 TestNG: Managing test suites
@@ -13,28 +17,46 @@ Extent reports: For test reporting
 Repository link
 git clone https://github.com/siamaskarenj/Front_end_automation.git
 
-Packages in the framework:
-Base:
+### Packages in the framework:
+
+#### Base:
+
 In base class initialisation of driver, loading properties file, loading Excel file and handling synchronization issues.
 
-Config package:
+#### Config package:
+
 Configurations like which browser to run the tests, user defined here
 
-Resources:
-GlobalPackage:
+#### Resources:
+
+##### GlobalPackage:
+
 It contains the common XPath and common methods which were used throughout the framework.
 
-StaticPackage:
+##### StaticPackage:
+
 Defined the static variables which were used throughout the framework.
 
-Utilities:
+#### Utilities:
+
 classes for storing evidences,reporting.
 
-Excel utility:It helps to retrieve the data from Excel and pass it to the scripts.
-Extent utility:It helps to generate the most informative reports with the help of IReporter.
-Screenshot utility:It helps to take the screenshot of the page of every testcase in unique directories.
-Extent report:
+##### Excel utility:
+
+It helps to retrieve the data from Excel and pass it to the scripts.
+
+##### Extent utility:
+
+It helps to generate the most informative reports with the help of IReporter.
+
+##### Screenshot utility:
+
+It helps to take the screenshot of the page of every testcase in unique directories.
+
+##### Extent report:
+
 will be generated and stored in defined location.
 
-Test cases:
+### Test cases:
+
 Test cases will be written under test/java folder.
